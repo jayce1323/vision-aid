@@ -60,6 +60,5 @@ def main():
     elif image_data is not None:
          st.image(image, caption="분석 대기 이미지", use_column_width=True)
 
-
 if __name__ == "__main__":
     main()
