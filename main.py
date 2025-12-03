@@ -2,7 +2,7 @@ from object_detection.detector import detect_objects
 from audio.tts_engine import build_description, speak_korean
 
 def main():
-    image_path = "images/street.jpg"
+    image_path = "images/street.jpeg"
     detections = detect_objects(image_path)
     description = build_description(detections)
     print("[시각장애인 안내 메시지]")
