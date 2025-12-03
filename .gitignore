@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Git Large File 제한을 피하기 위해 대용량 weights 파일 무시
+object_detection/yolov3.weights
