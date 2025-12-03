@@ -9,7 +9,7 @@ from audio.tts_engine import tts_bytes
 
 st.set_page_config(page_title="Vision-Aid", layout="centered")
 
-st.title("🔍 Vision-Aid: Object Detection + Voice Assistance")
+st.title("Vision-Aid: Object Detection + Voice Assistance")
 st.write("이미지 또는 카메라 입력을 이용해 객체를 인식하고 음성으로 안내합니다.")
 
 detector = ObjectDetector()
