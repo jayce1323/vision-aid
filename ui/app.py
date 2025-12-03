@@ -33,7 +33,7 @@ elif camera_file is not None:
     image_path = temp_path
     st.image(camera_file, caption="촬영된 이미지", use_column_width=True)
 
-if image_path and st.button("🔎 분석하기"):
+if image_path and st.button("분석하기"):
     with st.spinner("YOLO로 객체를 분석하는 중입니다..."):
         result = detector.detect_from_image(image_path)
 
@@ -47,13 +47,13 @@ if image_path and st.button("🔎 분석하기"):
         text_result = "객체를 인식하지 못했습니다."
 
     st.success("분석 완료!")
-    st.write("### 📌 인식 결과")
+    st.write("### 인식 결과")
     st.write(text_result)
 
     with st.spinner("음성 변환 중입니다..."):
         audio_data = tts_bytes(text_result)
 
-    st.write("### 🔊 음성 안내")
+    st.write("### 음성 안내")
     st.audio(audio_data, format="audio/mp3")
 
     try:
