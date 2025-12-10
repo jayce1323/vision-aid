@@ -55,7 +55,7 @@ streamlit run main.py
 
 | 역할 구분 | 이름 | 구체적인 기여 및 담당 모듈 |
 | :--- | :--- | :--- |
-| **팀 리더 / DevOps** | [안준영] | 프로젝트 총괄, **Gitflow 관리** (Merge, Conflict Resolution), Streamlit UI 통합, **YOLO 모델 로딩 최적화** (`@st.cache_resource` 적용), README 문서 작성. |
-| **핵심 모델 구현** | [장윤겸] | **객체 탐지(YOLOv3) 모듈 구현** (`detector.py`), OpenCV DNN 로직 구축, NMS(Non-Maximum Suppression) 및 바운딩 박스 좌표 계산 로직 담당. |
-| **음성 및 전처리** | [김동연] | **TTS(음성 합성) 모듈 구현** (`tts_engine.py`), `gtts`를 활용한 한국어 음성 생성, Streamlit 오디오 출력 포맷 (`BytesIO`) 처리 담당. |
-| **데이터 및 UI 보조** | [박혜주] | **입력 이미지 전처리 및 후처리 로직** 담당, `coco.names` 데이터 관리, Streamlit **카메라 입력 및 파일 업로드** UI 보조 구현. |
+| **팀 리더 / DevOps** | 안준영 | 프로젝트 총괄, **Gitflow 관리** (Merge, Conflict Resolution), Streamlit UI 통합, **YOLO 모델 로딩 최적화** (`@st.cache_resource` 적용), README 문서 작성. |
+| **핵심 모델 구현** | 장윤겸 | **객체 탐지(YOLOv3) 모듈 구현** (`detector.py`), OpenCV DNN 로직 구축, NMS(Non-Maximum Suppression) 및 바운딩 박스 좌표 계산 로직 담당. |
+| **음성 및 전처리** | 김동연 | **TTS(음성 합성) 모듈 구현** (`tts_engine.py`), `gtts`를 활용한 한국어 음성 생성, Streamlit 오디오 출력 포맷 (`BytesIO`) 처리 담당. |
+| **데이터 및 UI 보조** | 박혜주 | **입력 이미지 전처리 및 후처리 로직** 담당, `coco.names` 데이터 관리, Streamlit **카메라 입력 및 파일 업로드** UI 보조 구현. |
