@@ -59,3 +59,16 @@ streamlit run main.py
 | **핵심 모델 구현** | 장윤겸 | **객체 탐지(YOLOv3) 모듈 구현** (`detector.py`), OpenCV DNN 로직 구축, NMS(Non-Maximum Suppression) 및 바운딩 박스 좌표 계산 로직 담당. |
 | **음성 및 전처리** | 김동연 | **TTS(음성 합성) 모듈 구현** (`tts_engine.py`), `gtts`를 활용한 한국어 음성 생성, Streamlit 오디오 출력 포맷 (`BytesIO`) 처리 담당. |
 | **데이터 및 UI 보조** | 박혜주 | **입력 이미지 전처리 및 후처리 로직** 담당, `coco.names` 데이터 관리, Streamlit **카메라 입력 및 파일 업로드** UI 보조 구현. |
+
+## 참고 자료 (References)
+
+본 프로젝트는 다음의 자료들을 참고하여 구현되었습니다.
+
+- Wikidocs, Streamlit으로 파이썬 웹 앱 만들기  
+  https://wikidocs.net/231598?utm
+
+- YOLO V3 객체검출
+  https://velog.io/@noogoolgga/YOLO-V3-%EA%B0%9D%EC%B2%B4%EA%B2%80%EC%B6%9C
+
+- streamlit 튜토리얼
+  https://www.youtube.com/watch?v=Gr5Vuo7TCaE&list=PLIMb_GuNnFweSpt4s8BhlN7EggZnWWqy6
